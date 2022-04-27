@@ -10,8 +10,9 @@ function setup() {
 function draw(){
   stroke(random(500),random(240),random(270))
   fill(random(255),random(255),random(255), 30)
-  strokeWeight(random (1200))
+  strokeWeight(random (500))
   
   let diameter = mic.getLevel()*2000
   circle(random(width),random(height),diameter)
 }
+
